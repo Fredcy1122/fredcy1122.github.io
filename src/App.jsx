@@ -55,9 +55,9 @@ function App() {
               <code>strategy + data + AI</code>
             </div>
             <div className="floating-card impact-card">
-              <span>What I deliver</span>
-              <strong>Intelligent Business Solutions</strong>
-              <small>Strategy · Data · AI · Automation</small>
+              <span>My focus</span>
+              <strong>Insight Into Impact</strong>
+              <small>Optimise · Automate · Transform</small>
             </div>
           </div>
         </section>

@@ -63,9 +63,10 @@ h3 { font-size: 1.35rem; }
 .code-card { left: 0; bottom: 4.5rem; }
 .code-card code { display: block; margin-top: .45rem; color: var(--cyan-soft); }
 .impact-card {
-  right: 0;
-  top: 5rem;
-  max-width: 270px;
+  right: -0.5rem;
+  top: auto;
+  bottom: 2.25rem;
+  max-width: 310px;
   border-color: rgba(40, 215, 229, 0.4);
   background:
     linear-gradient(
@@ -157,7 +158,12 @@ footer { min-height: 120px; display: flex; justify-content: space-between; align
   .hero-visual { min-height: 460px; }
   .floating-card { padding: .8rem; }
   .code-card { bottom: 1.5rem; }
-  .impact-card { top: 1rem; }
+  .impact-card {
+  top: auto;
+  right: 0;
+  bottom: 1rem;
+  max-width: 250px;
+}
   .split-heading { align-items: flex-start; flex-direction: column; gap: 1rem; }
   .skill-grid { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: .6rem; }
