@@ -54,10 +54,10 @@ function App() {
               <span>focus.py</span>
               <code>strategy + data + AI</code>
             </div>
-            <div className="floating-card award-card">
-              <span>Achievement</span>
-              <strong>First Position</strong>
-              <small>Supply Chain Disruption Agent</small>
+            <div className="floating-card impact-card">
+              <span>What I deliver</span>
+              <strong>Intelligent Business Solutions</strong>
+              <small>Strategy · Data · AI · Automation</small>
             </div>
           </div>
         </section>

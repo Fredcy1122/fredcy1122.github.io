@@ -108,7 +108,7 @@ export const portfolio = {
       technologies: ["Python", "FastAPI", "React", "XGBoost", "Agentic AI", "Azure OpenAI", "RAG", "Chroma", "Azure App Service", "Vercel"],
       github: "https://github.com/tag-ecosystemai/c1-transformers-project-3",
       live: "https://supply-chain-disruption-agent.vercel.app/",
-      image: "/projects/supply-chain-agent.png",
+      image: "/projects/supply-chain-agent.jpeg",
       achievement: "First Position",
     },
     {
@@ -118,7 +118,7 @@ export const portfolio = {
       technologies: ["Python", "Ollama", "Local LLMs", "RAG", "Document Retrieval", "Privacy-first AI"],
       github: "https://github.com/tag-ecosystemai/c1-transformers-project-2",
       live: "",
-      image: "/projects/studylocal.png",
+      image: "/projects/studylocal.jpeg",
       achievement: "Privacy-first grounded learning",
     },
     {
@@ -128,7 +128,7 @@ export const portfolio = {
       technologies: ["Python", "NLP", "Machine Learning", "Streamlit", "Text Classification", "Data Visualisation"],
       github: "https://github.com/tag-ecosystemai/c1-transformers-project-1",
       live: "https://supportsense.streamlit.app/",
-      image: "/projects/supportsense.png",
+      image: "/projects/supportsense.jpeg",
       achievement: "Actionable insight from unstructured feedback",
     },
   ],
