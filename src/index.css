@@ -28,9 +28,24 @@ img { max-width: 100%; display: block; }
 
 .site-shell { max-width: 1440px; margin: 0 auto; padding: 0 5vw; }
 .topbar { position: sticky; top: 0; z-index: 20; min-height: 76px; display: flex; align-items: center; justify-content: space-between; backdrop-filter: blur(18px); background: rgba(6, 17, 31, .8); border-bottom: 1px solid var(--line); }
-.brand { font-family: 'Space Grotesk'; font-size: 1.1rem; font-weight: 700; }
-.brand span { color: var(--cyan); }
-.brand b { color: var(--muted); }
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.brand span {
+  color: var(--cyan);
+}
+
+.brand b {
+  color: var(--muted);
+  font-weight: 700;
+}
 .nav { display: flex; align-items: center; gap: 1.45rem; text-transform: capitalize; font-size: .82rem; color: var(--muted); }
 .nav a:hover { color: var(--cyan-soft); }
 .nav-cta { padding: .7rem 1rem; color: var(--bg) !important; background: var(--cyan); border-radius: 999px; font-weight: 800; }

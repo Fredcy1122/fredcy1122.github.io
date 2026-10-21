@@ -14,7 +14,7 @@ function App() {
     <div className="site-shell">
       <header className="topbar">
         <a className="brand" href="#home" onClick={closeMenu}>
-          <span>fredrick</span><b>.portfolio</b>
+          <span>Fredrick</span><b> Cyprian</b>
         </a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation" aria-expanded={menuOpen}>
           {menuOpen ? "Close" : "Menu"}
